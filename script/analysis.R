@@ -8,4 +8,7 @@ summary(bird)
 head(bird)
 
 bird1 <- bird %>%
-  filter(Species == "ACWO")  
+  filter(Species == "ACWO")
+
+summary(bird1)
+
